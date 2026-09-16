@@ -131,7 +131,7 @@ def evaluate(model, loader):
     return correct / total
 
 # 6) Eğitim
-optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
+optimizer = torch.optim.Adam(model.parameters(), lr=5e-3)
 loss_fn = nn.MSELoss()
 
 num_epochs = 15
