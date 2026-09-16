@@ -1,4 +1,4 @@
-# Gün 1: SNN Temelleri ve SpikingJelly ile İlk Model
+# Bölüm 1: SNN Temelleri ve SpikingJelly ile İlk Model
 
 **Proje:** IMEP - Nöromorfik Hızlandırıcılarla Kestirimci Bakım
 **Donanımlar (henüz kurulmadı):** Raspberry Pi 5 + BrainChip Akida, Orange Pi 5 + BrainChip Akida, Jetson Orin Nano/Super
@@ -355,4 +355,4 @@ Loss sürekli düşüyor, doğruluk sürekli artıyor → sağlıklı bir eğiti
 
 ---
 
-*Bu doküman, IMEP kapsamında yürütülen "Nöromorfik Hızlandırıcılarla Kestirimci Bakım" çalışmasının ilk gün ilerleme notlarını içermektedir.*
+*Bu doküman, IMEP kapsamında yürütülen "Nöromorfik Hızlandırıcılarla Kestirimci Bakım" çalışmasının ilk bölüm ilerleme notlarını içermektedir.*

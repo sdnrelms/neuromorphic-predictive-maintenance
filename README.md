@@ -24,7 +24,8 @@ Kestirimci bakım gibi seyrek-olaylı, zaman-serisi tabanlı bir problemde, nör
 
 ## İlerleme Günlüğü
 
-- [Gün 1 — SNN Temelleri ve SpikingJelly ile İlk Model](docs/day01-snn-fundamentals.md)
+- [Bölüm 1 — SNN Temelleri ve SpikingJelly ile İlk Model](docs/01-snn-fundamentals.md)
+- [Bölüm 2 — CNN Mimarisi, Encoding Yöntemleri ve İlk Zaman-Serisi Denemesi](docs/02-cnn-encoding-timeseries.md)
 
 ## Klasör Yapısı
 
