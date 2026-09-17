@@ -3,3 +3,4 @@ snn_env/
 __pycache__/
 *.pyc
 .vscode/
+datasets/cwru/raw/
