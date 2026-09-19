@@ -13,13 +13,13 @@ y_test = np.load(r"datasets\cwru\y_test_cwru.npy")
 # X = X * 5.0   # <-- YENİ: sinyali büyüterek nöronların ateşlemesini kolaylaştırıyoruz
 
 # 2) Karıştır ve train/test ayır
-# np.random.seed(0)
-# indices = np.random.permutation(len(X))
-# X, y = X[indices], y[indices]
+np.random.seed(0)
+indices = np.random.permutation(len(X))
+X, y = X[indices], y[indices]
 
-# split = int(0.8 * len(X))
-# X_train, X_test = X[:split], X[split:]
-# y_train, y_test = y[:split], y[split:]
+split = int(0.8 * len(X))
+X_train, X_test = X[:split], X[split:]
+y_train, y_test = y[:split], y[split:]
 
 print("Train boyutu:", X_train.shape, "Test boyutu:", X_test.shape)
 

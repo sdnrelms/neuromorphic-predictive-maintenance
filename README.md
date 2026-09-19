@@ -27,6 +27,7 @@ Kestirimci bakım gibi seyrek-olaylı, zaman-serisi tabanlı bir problemde, nör
 - [Bölüm 1 — SNN Temelleri ve SpikingJelly ile İlk Model](docs/01-snn-fundamentals.md)
 - [Bölüm 2 — CNN Mimarisi, Encoding Yöntemleri ve İlk Zaman-Serisi Denemesi](docs/02-cnn-encoding-timeseries.md)
 - [Bölüm 3 — Veriset Seçimi ve CWRU ile İlk Gerçek Veri Denemesi](docs/03-cwru-real-data.md)
+- [Bölüm 4 — Veri Sızıntısı Analizi ve Çapraz-Yük Doğrulaması](docs/04-veri-sizintisi-cross-load.md)
 
 ## Klasör Yapısı
 

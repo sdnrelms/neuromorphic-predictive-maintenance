@@ -5,10 +5,10 @@ from torch.utils.data import Dataset, DataLoader
 from spikingjelly.activation_based import neuron, layer, surrogate, functional
 
 # 1) Veriyi yükle
-X_train = np.load(r"datasets\cwru\X_train_cwru.npy")
-y_train = np.load(r"datasets\cwru\y_train_cwru.npy")
-X_test = np.load(r"datasets\cwru\X_test_cwru.npy")
-y_test = np.load(r"datasets\cwru\y_test_cwru.npy")
+X_train = np.load(r"datasets\cwru\X_train_crossload.npy")
+y_train = np.load(r"datasets\cwru\y_train_crossload.npy")
+X_test = np.load(r"datasets\cwru\X_test_crossload.npy")
+y_test = np.load(r"datasets\cwru\y_test_crossload.npy")
 
 # X = X * 5.0   # <-- YENİ: sinyali büyüterek nöronların ateşlemesini kolaylaştırıyoruz
 
@@ -21,7 +21,7 @@ y_test = np.load(r"datasets\cwru\y_test_cwru.npy")
 # X_train, X_test = X[:split], X[split:]
 # y_train, y_test = y[:split], y[split:]
 
-print("Train boyutu:", X_train.shape, "Test boyutu:", X_test.shape)
+# print("Train boyutu:", X_train.shape, "Test boyutu:", X_test.shape)
 
 # 3) Dataset sınıfı (sentetik veri denemenizle aynı)
 class SignalDataset(Dataset):
