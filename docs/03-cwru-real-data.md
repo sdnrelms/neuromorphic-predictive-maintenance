@@ -8,7 +8,7 @@
 
 ## 1. Veriset Seçimi: CWRU vs NASA CMAPSS
 
-Hoca planlaması netleşene kadar boş durmamak için, olası kestirimci bakım verisetleri araştırıldı.
+Olası kestirimci bakım verisetleri araştırıldı.
 
 | | CWRU Bearing | NASA CMAPSS |
 |---|---|---|
@@ -127,11 +127,10 @@ Epoch 21/23/24: %76.60 (en iyi)
 
 ## 6. Sıradaki Adımlar
 
-- [ ] Hoca ile framework planlamasının netleşmesi
 - [ ] (Opsiyonel) Daha fazla veri artırma stratejisi (daha küçük stride, farklı motor yükü/hız verilerini ekleme)
 - [ ] (Opsiyonel) Farklı encoding yöntemlerinin (Latency) CWRU verisinde denenmesi
 - [ ] Donanım kurulumları (Akida kartları, Jetson)
-- [ ] Diğer framework'lere geçiş (hoca onayı gerekiyor)
+- [ ] Diğer framework'lere geçiş 
 
 ---
 
